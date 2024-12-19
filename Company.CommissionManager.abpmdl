@@ -1,0 +1,105 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "4.0.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account": {
+      "version": "9.0.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "9.0.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "9.0.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "9.0.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "9.0.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "9.0.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "9.0.0",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "Company.CommissionManager.Application": {
+      "path": "src/Company.CommissionManager.Application/Company.CommissionManager.Application.abppkg",
+      "folder": "src"
+    },
+    "Company.CommissionManager.Application.Tests": {
+      "path": "test/Company.CommissionManager.Application.Tests/Company.CommissionManager.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "Company.CommissionManager.Domain.Shared": {
+      "path": "src/Company.CommissionManager.Domain.Shared/Company.CommissionManager.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "Company.CommissionManager.Application.Contracts": {
+      "path": "src/Company.CommissionManager.Application.Contracts/Company.CommissionManager.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Company.CommissionManager.HttpApi": {
+      "path": "src/Company.CommissionManager.HttpApi/Company.CommissionManager.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Company.CommissionManager.HttpApi.Client": {
+      "path": "src/Company.CommissionManager.HttpApi.Client/Company.CommissionManager.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Company.CommissionManager.Web": {
+      "path": "src/Company.CommissionManager.Web/Company.CommissionManager.Web.abppkg",
+      "folder": "src"
+    },
+    "Company.CommissionManager.Web.Tests": {
+      "path": "test/Company.CommissionManager.Web.Tests/Company.CommissionManager.Web.Tests.abppkg",
+      "folder": "test"
+    },
+    "Company.CommissionManager.EntityFrameworkCore.Tests": {
+      "path": "test/Company.CommissionManager.EntityFrameworkCore.Tests/Company.CommissionManager.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "Company.CommissionManager.EntityFrameworkCore": {
+      "path": "src/Company.CommissionManager.EntityFrameworkCore/Company.CommissionManager.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Company.CommissionManager.TestBase": {
+      "path": "test/Company.CommissionManager.TestBase/Company.CommissionManager.TestBase.abppkg",
+      "folder": "test"
+    },
+    "Company.CommissionManager.Domain.Tests": {
+      "path": "test/Company.CommissionManager.Domain.Tests/Company.CommissionManager.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "Company.CommissionManager.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Company.CommissionManager.HttpApi.Client.ConsoleTestApp/Company.CommissionManager.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "Company.CommissionManager.DbMigrator": {
+      "path": "src/Company.CommissionManager.DbMigrator/Company.CommissionManager.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "Company.CommissionManager.Domain": {
+      "path": "src/Company.CommissionManager.Domain/Company.CommissionManager.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}

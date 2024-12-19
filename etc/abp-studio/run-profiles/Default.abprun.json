@@ -1,0 +1,13 @@
+﻿{
+  "applications": {
+    "Company.CommissionManager.Web": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44318",
+      "path": "../../../src/Company.CommissionManager.Web/Company.CommissionManager.Web.csproj",
+      "kubernetesService": ".*-web$",
+      "execution": {
+        "order": 2
+      }
+    }
+  }
+}
